@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Greetengs.Labs01.ex1-3", "Greetengs\Greetengs.Labs01.ex1-3.csproj", "{B0BE0A1D-9757-4A62-BD9A-4C18DEE804F1}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Labs02", "Labs02", "{839A983B-DF26-40DA-92DA-A5A7E9A2AD0A}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Labs01", "Labs01", "{C65349E7-9EBF-4800-89B6-8ACFBDB37255}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Divider.Labs01.ex4", "Divider\Divider.Labs01.ex4.csproj", "{A6AE32A7-1B5C-4AA6-8B7B-E57BE86D03BE}"
