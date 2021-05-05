@@ -1,4 +1,9 @@
-﻿using System;
+﻿// Лабораторная работа №2
+// Упраженине №3 (
+
+
+
+using System;
 
 namespace StructType
 {
