@@ -2,7 +2,7 @@
 
 namespace Labs03.Using.ExpExc.ex1
 {
-    class Program
+    class WhatDay
     {
         static void Main(string[] args)
         {
