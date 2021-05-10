@@ -15,12 +15,14 @@ namespace Labs04.CreatMetods
             int greater;
 
             Console.WriteLine("Ввведите первое число: ");
-            x = Int32.Parse(Console.ReadLine());
+            x = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Ввведите второе число: ");
-            y = Int32.Parse(Console.ReadLine());
+            y = int.Parse(Console.ReadLine());
 
             greater = Utils.Greater(x, y);
+
+            Console.WriteLine("The greater value is "+ greater);
         }
     }
 }

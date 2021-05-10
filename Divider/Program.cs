@@ -18,11 +18,11 @@ namespace Divider
 
                 Console.WriteLine("Ваши числа: {0}, {1}", i, j);
 
-                decimal z = (decimal)i;
-                decimal w = (decimal)j;
+                //decimal z = (decimal)i;
+                //decimal w = (decimal)j;
 
-                decimal m = z / w;
-                Console.WriteLine("Результат деления чисел {0} / {1} = {2}", z, w, m);
+                //decimal m = z / w;
+                //Console.WriteLine("Результат деления чисел {0} / {1} = {2}", z, w, m);
 
                 int m = i / j;
                 Console.WriteLine("Результат деления чисел {0} / {1} = {2}", i, j, m);
