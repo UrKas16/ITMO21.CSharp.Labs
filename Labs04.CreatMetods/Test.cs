@@ -22,7 +22,7 @@ namespace Labs04.CreatMetods
 
             greater = Utils.Greater(x, y);
 
-            Console.WriteLine("The greater value is "+ greater);
+            Console.WriteLine("Больше значение из двух чисел " + greater);
         }
     }
 }
