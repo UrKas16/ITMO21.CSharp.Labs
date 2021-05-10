@@ -32,7 +32,19 @@ namespace Labs03.Using.ExpExc.ex1
                 Console.WriteLine("Введите номер дня от 1 до 365: ");
                 line = Console.ReadLine(); // ввод номера дня года
                 int dayNum = int.Parse(line); // приведение к целочисленому значению
-                                              
+
+                bool isLeapYear = (yearNum % 4 == 0) && (yearNum % 100 != 0) || (yearNum % 400 == 0);
+
+                //if (isLeapYear == true)
+                //{
+                //    Console.WriteLine("Год является високосным.");
+                //}
+                //else
+                //{
+                //    Console.WriteLine("Год не является високосным.");
+                //}
+
+
                 if (dayNum < 1 || dayNum > 365)
                 {
                     throw new ArgumentOutOfRangeException("Число не соответствует номеру дня");
@@ -63,7 +75,7 @@ namespace Labs03.Using.ExpExc.ex1
             catch (Exception caught)
             {
                 Console.WriteLine(caught);
-            
+
             }
         }
         static System.Collections.ICollection DaysInMonths
