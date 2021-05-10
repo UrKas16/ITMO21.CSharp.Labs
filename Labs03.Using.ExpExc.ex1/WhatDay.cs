@@ -1,4 +1,6 @@
-﻿using System;
+﻿// Упражнение 3. Учет високосных годов
+
+using System;
 
 namespace Labs03.Using.ExpExc.ex1
 {
@@ -23,10 +25,14 @@ namespace Labs03.Using.ExpExc.ex1
         {
             try
             {
-                Console.WriteLine("Please enter a day number between 1 and 365: ");
+                Console.WriteLine("Введите год: ");
                 string line = Console.ReadLine(); // ввод номера дня года
+                int yearNum = int.Parse(line);
+
+                Console.WriteLine("Введите номер дня от 1 до 365: ");
+                line = Console.ReadLine(); // ввод номера дня года
                 int dayNum = int.Parse(line); // приведение к целочисленому значению
-                                              //Console.WriteLine(dayNum);
+                                              
                 if (dayNum < 1 || dayNum > 365)
                 {
                     throw new ArgumentOutOfRangeException("Число не соответствует номеру дня");
