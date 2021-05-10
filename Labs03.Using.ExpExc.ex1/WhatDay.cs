@@ -149,7 +149,7 @@ namespace Labs03.Using.ExpExc.ex1
             }
 
         End:
-            string monthName;
+            //string monthName;
 
             //switch (monthNum)
             // {
