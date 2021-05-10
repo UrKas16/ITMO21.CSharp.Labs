@@ -4,6 +4,21 @@ namespace Labs03.Using.ExpExc.ex1
 {
     class WhatDay
     {
+        enum MonthName
+        {
+            January,
+            February,
+            March,
+            April,
+            May,
+            June,
+            July,
+            August,
+            September,
+            October,
+            November,
+            December
+        }
         static void Main()
         {
             Console.WriteLine("Please enter a day number between 1 and 365: ");
@@ -11,7 +26,7 @@ namespace Labs03.Using.ExpExc.ex1
             int dayNum = int.Parse(line);
             //Console.WriteLine(dayNum);
 
-            int monthNom = 0;
+            int monthNum = 0;
 
             if (dayNum <= 31)
             { // January
@@ -20,7 +35,7 @@ namespace Labs03.Using.ExpExc.ex1
             else
             {
                 dayNum -= 31;
-                monthNom++;
+                monthNum++;
             }
 
             if (dayNum <= 28)
@@ -30,7 +45,7 @@ namespace Labs03.Using.ExpExc.ex1
             else
             {
                 dayNum -= 28;
-                monthNom++;
+                monthNum++;
             }
 
             if (dayNum <= 28)
@@ -40,7 +55,7 @@ namespace Labs03.Using.ExpExc.ex1
             else
             {
                 dayNum -= 31;
-                monthNom++;
+                monthNum++;
             }
 
             if (dayNum <= 30)
@@ -50,7 +65,7 @@ namespace Labs03.Using.ExpExc.ex1
             else
             {
                 dayNum -= 30;
-                monthNom++;
+                monthNum++;
             }
 
             if (dayNum <= 31)
@@ -60,7 +75,7 @@ namespace Labs03.Using.ExpExc.ex1
             else
             {
                 dayNum -= 31;
-                monthNom++;
+                monthNum++;
             }
 
             if (dayNum <= 30)
@@ -70,7 +85,7 @@ namespace Labs03.Using.ExpExc.ex1
             else
             {
                 dayNum -= 30;
-                monthNom++;
+                monthNum++;
             }
 
             if (dayNum <= 31)
@@ -80,7 +95,7 @@ namespace Labs03.Using.ExpExc.ex1
             else
             {
                 dayNum -= 31;
-                monthNom++;
+                monthNum++;
             }
 
             if (dayNum <= 31)
@@ -90,7 +105,7 @@ namespace Labs03.Using.ExpExc.ex1
             else
             {
                 dayNum -= 31;
-                monthNom++;
+                monthNum++;
             }
 
             if (dayNum <= 30)
@@ -100,7 +115,7 @@ namespace Labs03.Using.ExpExc.ex1
             else
             {
                 dayNum -= 30;
-                monthNom++;
+                monthNum++;
             }
 
             if (dayNum <= 31)
@@ -110,7 +125,7 @@ namespace Labs03.Using.ExpExc.ex1
             else
             {
                 dayNum -= 31;
-                monthNom++;
+                monthNum++;
             }
 
             if (dayNum <= 30)
@@ -120,7 +135,7 @@ namespace Labs03.Using.ExpExc.ex1
             else
             {
                 dayNum -= 30;
-                monthNom++;
+                monthNum++;
             }
 
             if (dayNum <= 31)
@@ -130,54 +145,57 @@ namespace Labs03.Using.ExpExc.ex1
             else
             {
                 dayNum -= 31;
-                monthNom++;
+                monthNum++;
             }
 
-            End:
-                string monthName;
+        End:
+            string monthName;
 
-            switch (monthNom)
-             {
-                case 0:
-                    monthName = "January";
-                    break;
-                case 1:
-                    monthName = "February";
-                    break;
-                case 2:
-                    monthName = "March";
-                    break;
-                case 3:
-                    monthName = "April";
-                    break;
-                case 4:
-                    monthName = "May";
-                    break;
-                case 5:
-                    monthName = "June";
-                    break;
-                case 6:
-                    monthName = "Jule";
-                    break;
-                case 7:
-                    monthName = "August";
-                    break;
-                case 8:
-                    monthName = "September";
-                    break;
-                case 9:
-                    monthName = "October";
-                    break;
-                case 10:
-                    monthName = "November";
-                    break;
-                case 11:
-                    monthName = "December";
-                    break;
-                default:
-                    monthName = "not done yet";
-                    break;
-            }
+            //switch (monthNum)
+            // {
+            //    case 0:
+            //        monthName = "January";
+            //        break;
+            //    case 1:
+            //        monthName = "February";
+            //        break;
+            //    case 2:
+            //        monthName = "March";
+            //        break;
+            //    case 3:
+            //        monthName = "April";
+            //        break;
+            //    case 4:
+            //        monthName = "May";
+            //        break;
+            //    case 5:
+            //        monthName = "June";
+            //        break;
+            //    case 6:
+            //        monthName = "Jule";
+            //        break;
+            //    case 7:
+            //        monthName = "August";
+            //        break;
+            //    case 8:
+            //        monthName = "September";
+            //        break;
+            //    case 9:
+            //        monthName = "October";
+            //        break;
+            //    case 10:
+            //        monthName = "November";
+            //        break;
+            //    case 11:
+            //        monthName = "December";
+            //        break;
+            //    default:
+            //        monthName = "not done yet";
+            //        break;
+            //}
+
+            MonthName temp = (MonthName)monthNum;
+            string monthName = temp.ToString();
 
             Console.WriteLine("{0}, {1}", dayNum, monthName);
             Console.ReadLine();
