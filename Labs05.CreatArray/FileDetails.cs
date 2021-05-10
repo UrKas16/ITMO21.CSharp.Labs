@@ -7,7 +7,7 @@ namespace Labs05.CreatArray
     {
         static void Main(string[] args)
         {
-            string fileName = args[0];
+            string fileName = "new.txt";
             FileStream stream = new FileStream(fileName, FileMode.Open);
             StreamReader reader = new StreamReader(stream);
 
@@ -24,11 +24,11 @@ namespace Labs05.CreatArray
             }
 
 
-            Console.WriteLine(args.Length);
-            foreach (string arg in args)
-            {
-                Console.WriteLine(arg);
-            }
+            //Console.WriteLine(args.Length);
+            //foreach (string arg in args)
+            //{
+            //    Console.WriteLine(arg);
+            //}
         }
         }
 }
