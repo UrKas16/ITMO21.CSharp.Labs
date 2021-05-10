@@ -15,6 +15,13 @@ namespace Labs04.CreatMetods
                 return b;
             }
         }
+
+        public static void Swap(ref int a, ref int b)
+        {
+            int temp = a;
+            a = b;
+            b = temp;
+         }
     }
 }
 
