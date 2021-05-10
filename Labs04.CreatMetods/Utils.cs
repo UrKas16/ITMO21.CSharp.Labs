@@ -22,6 +22,38 @@ namespace Labs04.CreatMetods
             a = b;
             b = temp;
          }
+
+        public static bool Factorial(int n, out int answer)
+        {
+            int k;
+            int f = 1;
+            bool ok = true;
+
+            if (n < 0)
+            {
+                ok = false;
+            }
+
+            try
+            {
+                checked
+                {
+                    for (k = 2; k <= n; ++k)
+                    {
+                        f = k * f;
+                    }
+                }
+            }
+            catch (Exception)
+            {
+                f = 0;
+                ok = false;            
+            }
+
+            answer = f;
+            return ok;                    
+        
+        }
     }
 }
 
