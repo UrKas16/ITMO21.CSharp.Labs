@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankAccount.Labs02.ex1-2", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StructType.Labs02.ex3", "StructType\StructType.Labs02.ex3.csproj", "{A2DF3457-8B6D-4854-8E41-CEF3314186C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labs03.Using.ExpExc.ex1", "Labs03.Using.ExpExc.ex1\Labs03.Using.ExpExc.ex1.csproj", "{648E9A38-9A2D-42B2-9EB2-25DC6F7ED3F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Labs03.Using.ExpExc.ex1", "Labs03.Using.ExpExc.ex1\Labs03.Using.ExpExc.ex1.csproj", "{648E9A38-9A2D-42B2-9EB2-25DC6F7ED3F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labs04.CreatMetods", "Labs04.CreatMetods\Labs04.CreatMetods.csproj", "{AEAC7998-DE7C-4308-BA21-8754A4CD8528}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{648E9A38-9A2D-42B2-9EB2-25DC6F7ED3F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{648E9A38-9A2D-42B2-9EB2-25DC6F7ED3F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{648E9A38-9A2D-42B2-9EB2-25DC6F7ED3F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEAC7998-DE7C-4308-BA21-8754A4CD8528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEAC7998-DE7C-4308-BA21-8754A4CD8528}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEAC7998-DE7C-4308-BA21-8754A4CD8528}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEAC7998-DE7C-4308-BA21-8754A4CD8528}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
