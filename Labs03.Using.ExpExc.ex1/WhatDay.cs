@@ -4,7 +4,7 @@ namespace Labs03.Using.ExpExc.ex1
 {
     class WhatDay
     {
-        enum MonthName
+        enum MonthName // Перечисление месяцев
         {
             January,
             February,
@@ -21,35 +21,48 @@ namespace Labs03.Using.ExpExc.ex1
         }
         static void Main()
         {
-            Console.WriteLine("Please enter a day number between 1 and 365: ");
-            string line = Console.ReadLine();
-            int dayNum = int.Parse(line);
-            //Console.WriteLine(dayNum);
-
-            int monthNum = 0;
-
-            foreach (int daysInMonth in DaysInMonths)
+            try
             {
-                if (dayNum <= daysInMonth)
+                Console.WriteLine("Please enter a day number between 1 and 365: ");
+                string line = Console.ReadLine(); // ввод номера дня года
+                int dayNum = int.Parse(line); // приведение к целочисленому значению
+                                              //Console.WriteLine(dayNum);
+                if (dayNum < 1 || dayNum > 365)
                 {
-                    break;
+                    throw new ArgumentOutOfRangeException("Число не соответствует номеру дня");
                 }
-                else
+
+                int monthNum = 0;
+
+                foreach (int daysInMonth in DaysInMonths)
                 {
-                    dayNum -= daysInMonth;
-                    monthNum++;
+                    if (dayNum <= daysInMonth)
+                    {
+                        break;
+                    }
+                    else
+                    {
+                        dayNum -= daysInMonth;
+                        monthNum++;
+                    }
                 }
+
+                MonthName temp = (MonthName)monthNum;
+                string monthName = temp.ToString();
+
+                Console.WriteLine("{0}, {1}", dayNum, monthName);
+                Console.ReadLine();
             }
 
-            MonthName temp = (MonthName)monthNum;
-            string monthName = temp.ToString();
-
-            Console.WriteLine("{0}, {1}", dayNum, monthName);
-            Console.ReadLine();
+            catch (Exception caught)
+            {
+                Console.WriteLine(caught);
+            
+            }
         }
-
         static System.Collections.ICollection DaysInMonths
             = new int[12] { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
+
     }
 }
 
