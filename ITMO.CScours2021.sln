@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Labs01.ex4.Divider", "Divid
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Labs02.ex1-2.BankAccount", "BankAccount\Labs02.ex1-2.BankAccount.csproj", "{6A772BD2-F1EE-447F-ABDE-6D6B64E0DD18}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StructType.Labs02.ex3", "StructType\StructType.Labs02.ex3.csproj", "{A2DF3457-8B6D-4854-8E41-CEF3314186C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Labs02.ex3.StructType", "StructType\Labs02.ex3.StructType.csproj", "{A2DF3457-8B6D-4854-8E41-CEF3314186C0}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Labs03.Using.ExpExc.ex1", "Labs03.Using.ExpExc.ex1\Labs03.Using.ExpExc.ex1.csproj", "{648E9A38-9A2D-42B2-9EB2-25DC6F7ED3F9}"
 EndProject
