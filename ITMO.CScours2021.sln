@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Greetengs.Labs01.ex1-3", "Greetengs\Greetengs.Labs01.ex1-3.csproj", "{B0BE0A1D-9757-4A62-BD9A-4C18DEE804F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Labs01.ex1-3.Greetengs", "Greetengs\Labs01.ex1-3.Greetengs.csproj", "{B0BE0A1D-9757-4A62-BD9A-4C18DEE804F1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Divider.Labs01.ex4", "Divider\Divider.Labs01.ex4.csproj", "{A6AE32A7-1B5C-4AA6-8B7B-E57BE86D03BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Labs01.ex4.Divider", "Divider\Labs01.ex4.Divider.csproj", "{A6AE32A7-1B5C-4AA6-8B7B-E57BE86D03BE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankAccount.Labs02.ex1-2", "BankAccount\BankAccount.Labs02.ex1-2.csproj", "{6A772BD2-F1EE-447F-ABDE-6D6B64E0DD18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Labs02.ex1-2.BankAccount", "BankAccount\Labs02.ex1-2.BankAccount.csproj", "{6A772BD2-F1EE-447F-ABDE-6D6B64E0DD18}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StructType.Labs02.ex3", "StructType\StructType.Labs02.ex3.csproj", "{A2DF3457-8B6D-4854-8E41-CEF3314186C0}"
 EndProject
@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Labs03.Using.ExpExc.ex1", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Labs04.CreatMetods", "Labs04.CreatMetods\Labs04.CreatMetods.csproj", "{AEAC7998-DE7C-4308-BA21-8754A4CD8528}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labs05.CreatArray", "Labs05.CreatArray\Labs05.CreatArray.csproj", "{6DDC431A-9B60-45B4-BF02-FFF7C3CCBE26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Labs05.CreatArray", "Labs05.CreatArray\Labs05.CreatArray.csproj", "{6DDC431A-9B60-45B4-BF02-FFF7C3CCBE26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
