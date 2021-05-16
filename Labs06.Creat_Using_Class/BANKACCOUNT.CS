@@ -27,6 +27,15 @@ class BankAccount
     {
         return nextAccNo++;
     }
+
+    public decimal Deposit(decimal amount)
+    {
+        accBal += amount;
+        return accBal;
+    }
+
+
+
     private long accNo;
     private decimal accBal;
     private AccountType accType;

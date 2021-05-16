@@ -8,8 +8,12 @@ class CreateAccount
     {
         BankAccount berts = NewBankAccount();
         Write(berts);
+        TestDeposit(berts);
+        Write(berts);
         
         BankAccount freds = NewBankAccount();
+        Write(freds);
+        TestDeposit(freds);
         Write(freds);
     }
     
@@ -39,5 +43,12 @@ class CreateAccount
         Console.WriteLine("Account number is {0}",  toWrite.Number());
         Console.WriteLine("Account balance is {0}", toWrite.Balance());
         Console.WriteLine("Account type is {0}", toWrite.Type());
+    }
+
+    public static void TestDeposit(BankAccount acc)
+    {
+        Console.WriteLine("¬ведите сумму пополнени€: ");
+        decimal amount = decimal.Parse(Console.ReadLine());
+        acc.Deposit(amount);    
     }
 }
