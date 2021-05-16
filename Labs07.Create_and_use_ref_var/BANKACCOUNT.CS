@@ -46,6 +46,15 @@ class BankAccount
         return sufficientFunds;
     }
 
+    public void TransferFrom(BankAccount accForm, decimal amount)
+    {
+        if (accForm.WithDraw(amount))
+        {
+            this.Deposit(amount);
+        }
+        
+    }
+
 
 
     private long accNo;
