@@ -60,15 +60,22 @@ namespace Labs04.CreatMetods
         {
             string sRev = "";
 
-            while (s.Length != 0)
+            //while (s.Length != 0)
+            //{
+            //    sRev += s[0];
+            //    s = s.TrimStart(s[0]);
+
+            //}
+
+            //s = sRev;
+
+            for (int k = s.Length - 1; k >= 0; k--)
             {
-                sRev += s[-1];
-                s.Remove(s[-1]);
-           
+                sRev = sRev + s[k];
             }
 
-            Console.WriteLine(sRev);
-        
+            s = sRev;
+
         }
     }
 }

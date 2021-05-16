@@ -30,7 +30,9 @@ namespace Labs07.Create_and_use_ref_var
             Console.WriteLine("Введите ваше сообщение: ");
             message = Console.ReadLine();
 
-            Utils.
+            Labs04.CreatMetods.Utils.Reverse(ref message);
+
+            Console.WriteLine(message);
 
         }
     }
