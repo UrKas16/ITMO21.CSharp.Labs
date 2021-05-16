@@ -49,6 +49,15 @@ class CreateAccount
     {
         Console.WriteLine("¬ведите сумму пополнени€: ");
         decimal amount = decimal.Parse(Console.ReadLine());
-        acc.Deposit(amount);    
+
+        while (amount < 0)
+        {
+            Console.WriteLine("Error!!! Try again!");
+            amount = decimal.Parse(Console.ReadLine());
+
+        }
+
+         acc.Deposit(amount);
+            
     }
 }
