@@ -10,10 +10,15 @@ class CreateAccount
         Write(berts);
         TestDeposit(berts);
         Write(berts);
-        
+        TestWithDraw(berts);
+        Write(berts);
+
+
         BankAccount freds = NewBankAccount();
         Write(freds);
         TestDeposit(freds);
+        Write(freds);
+        TestWithDraw(freds);
         Write(freds);
     }
     
@@ -59,5 +64,18 @@ class CreateAccount
 
          acc.Deposit(amount);
             
+    }
+
+    public static void TestWithDraw(BankAccount acc)
+    {
+        Console.WriteLine("Введите сумму списания: ");
+        decimal amount = decimal.Parse(Console.ReadLine());
+        if (!acc.WithDraw(amount))
+        {
+            Console.WriteLine("Сумма превышает остаток на счете!!!");
+
+        }
+    
+
     }
 }

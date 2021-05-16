@@ -32,7 +32,17 @@ class BankAccount
     {
         accBal += amount;
         return accBal; 
-        
+    }
+
+    public bool WithDraw(decimal amount)
+    {
+        bool sufficientFunds = accBal >= amount;
+        if (sufficientFunds)
+        {
+            accBal -= amount;                    
+        }
+
+        return sufficientFunds;
     }
 
 
