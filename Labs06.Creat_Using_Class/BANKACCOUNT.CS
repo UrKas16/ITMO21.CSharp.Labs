@@ -18,6 +18,7 @@ class BankAccount
         return accBal;
     }
 
+    
     public string Type()
     {
         return accType.ToString();
@@ -36,7 +37,7 @@ class BankAccount
 
     public bool WithDraw(decimal amount)
     {
-        bool sufficientFunds = accBal >= amount;
+        bool sufficientFunds = accBal >= amount & amount >= 0;
         if (sufficientFunds)
         {
             accBal -= amount;                    

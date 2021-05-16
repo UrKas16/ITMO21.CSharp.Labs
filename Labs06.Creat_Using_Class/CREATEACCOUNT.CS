@@ -65,17 +65,20 @@ class CreateAccount
          acc.Deposit(amount);
             
     }
-
+    
     public static void TestWithDraw(BankAccount acc)
     {
         Console.WriteLine("¬ведите сумму списани€: ");
         decimal amount = decimal.Parse(Console.ReadLine());
-        if (!acc.WithDraw(amount))
+
+        while ((!acc.WithDraw(amount)) | (amount <= 0))
         {
             Console.WriteLine("—умма превышает остаток на счете!!!");
-
+            Console.WriteLine("¬ведите верную сумму! ¬аш остаток равен - {0}, руб.", acc.Balance());
+            amount = decimal.Parse(Console.ReadLine());
+            
         }
-    
 
+        
     }
 }
