@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Labs05.CreatArray", "Labs05
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Labs06.Creat_Using_Class", "Labs06.Creat_Using_Class\Labs06.Creat_Using_Class.csproj", "{AC4A77C2-0AA1-43D7-BA7B-193D874644F5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Labs07.Create_and_use_ref_var", "Labs07.Create_and_use_ref_var\Labs07.Create_and_use_ref_var.csproj", "{5CAF2658-56CE-4A31-8B8A-AD5E18AAB8CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Labs07.Create_and_use_ref_var_exemp_1", "Labs07.Create_and_use_ref_var\Labs07.Create_and_use_ref_var_exemp_1.csproj", "{5CAF2658-56CE-4A31-8B8A-AD5E18AAB8CA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Labs01.ex1-3.Greetengs", "Labs01.ex1-3.Greetengs\Labs01.ex1-3.Greetengs.csproj", "{41A001A1-A545-4527-88B5-AD99CFE48AC2}"
 EndProject
@@ -20,6 +20,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Labs02.ex1-2.BankAccount", "Labs02.ex1-2.BankAccount\Labs02.ex1-2.BankAccount.csproj", "{C0764549-8A3C-495A-8E5E-32BA9D351125}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Labs02.ex3.StructType", "Labs02.ex3.StructType\Labs02.ex3.StructType.csproj", "{8772AC6C-0DAE-4923-A245-8DF2EB58591B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labs07.Create_and_use_ref_var_exemp_2", "Labs07.Create_and_use_ref_var_exemp_2\Labs07.Create_and_use_ref_var_exemp_2.csproj", "{841FE2BC-9C8B-4115-B599-9403DF887AF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labs07.Create_and_use_ref_var_exemp_3", "Labs07.Create_and_use_ref_var_exemp_3\Labs07.Create_and_use_ref_var_exemp_3.csproj", "{622458E5-D2A0-47D6-85B4-E89E2C3D14E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +67,14 @@ Global
 		{8772AC6C-0DAE-4923-A245-8DF2EB58591B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8772AC6C-0DAE-4923-A245-8DF2EB58591B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8772AC6C-0DAE-4923-A245-8DF2EB58591B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{841FE2BC-9C8B-4115-B599-9403DF887AF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{841FE2BC-9C8B-4115-B599-9403DF887AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{841FE2BC-9C8B-4115-B599-9403DF887AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{841FE2BC-9C8B-4115-B599-9403DF887AF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{622458E5-D2A0-47D6-85B4-E89E2C3D14E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{622458E5-D2A0-47D6-85B4-E89E2C3D14E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{622458E5-D2A0-47D6-85B4-E89E2C3D14E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{622458E5-D2A0-47D6-85B4-E89E2C3D14E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
