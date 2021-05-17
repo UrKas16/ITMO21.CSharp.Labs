@@ -21,7 +21,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Labs02.ex1-2.BankAccount", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Labs02.ex3.StructType", "Labs02.ex3.StructType\Labs02.ex3.StructType.csproj", "{8772AC6C-0DAE-4923-A245-8DF2EB58591B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labs07.Create_and_use_ref_var_exemp_2", "Labs07.Create_and_use_ref_var_exemp_2\Labs07.Create_and_use_ref_var_exemp_2.csproj", "{841FE2BC-9C8B-4115-B599-9403DF887AF9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labs07.Create_and_use_ref_var_exemp_2and4", "Labs07.Create_and_use_ref_var_exemp_2\Labs07.Create_and_use_ref_var_exemp_2and4.csproj", "{841FE2BC-9C8B-4115-B599-9403DF887AF9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labs07.Create_and_use_ref_var_exemp_3", "Labs07.Create_and_use_ref_var_exemp_3\Labs07.Create_and_use_ref_var_exemp_3.csproj", "{622458E5-D2A0-47D6-85B4-E89E2C3D14E1}"
 EndProject

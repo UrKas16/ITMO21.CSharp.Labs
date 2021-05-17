@@ -77,6 +77,19 @@ namespace Labs04.CreatMetods
             s = sRev;
 
         }
+
+        public static bool IsItFormattable(object x)
+        {
+            if (x is IFormattable)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        
+        }
     }
 }
 
