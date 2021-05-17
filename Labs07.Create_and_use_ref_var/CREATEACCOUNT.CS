@@ -4,24 +4,24 @@ using System.IO;
 
 class CreateAccount
 {
-    //static void Main() 
-    //{
-    //    BankAccount berts = NewBankAccount();
-    //    Write(berts);
-    //    TestDeposit(berts);
-    //    Write(berts);
-    //    TestWithDraw(berts);
-    //    Write(berts);
+    static void Main()
+    {
+        BankAccount berts = NewBankAccount();
+        Write(berts);
+        TestDeposit(berts);
+        Write(berts);
+        TestWithDraw(berts);
+        Write(berts);
 
 
-    //    BankAccount freds = NewBankAccount();
-    //    Write(freds);
-    //    TestDeposit(freds);
-    //    Write(freds);
-    //    TestWithDraw(freds);
-    //    Write(freds);
-    //}
-    
+        BankAccount freds = NewBankAccount();
+        Write(freds);
+        TestDeposit(freds);
+        Write(freds);
+        TestWithDraw(freds);
+        Write(freds);
+    }
+
     static BankAccount NewBankAccount()
     {       
         BankAccount created = new BankAccount();
