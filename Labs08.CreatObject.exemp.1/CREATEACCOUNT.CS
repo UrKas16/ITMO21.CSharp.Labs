@@ -6,32 +6,21 @@ class CreateAccount
 {
     static void Main()
     {
-        BankAccount berts = NewBankAccount();
-        Write(berts);
-        TestDeposit(berts);
-        Write(berts);
-        TestWithDraw(berts);
-        Write(berts);
+        using (BankAccount acc1 = new BankAccount())
+		{
+			acc1.Deposit(100);
+			acc1.WithDraw(50);
+			acc1.Deposit(75);
+			acc1.WithDraw(50);
+			acc1.WithDraw(30);
+			acc1.Deposit(40);
+			acc1.Deposit(200);
+			acc1.WithDraw(250);
+			acc1.Deposit(25);
 
-
-        BankAccount freds = NewBankAccount();
-        Write(freds);
-        TestDeposit(freds);
-        Write(freds);
-        TestWithDraw(freds);
-        Write(freds);
-
-        BankAccount acc1, acc2, acc3, acc4;
-
-        acc1 = new BankAccount();
-        acc2 = new BankAccount(AccountType.Deposit);
-        acc3 = new BankAccount(100);
-        acc4 = new BankAccount(AccountType.Deposit, 500);
-
-        Write(acc1);
-        Write(acc2);
-        Write(acc3);
-        Write(acc4);
+			Write(acc1);
+		
+		}
 
     }
 
