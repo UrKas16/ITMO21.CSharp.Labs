@@ -56,11 +56,18 @@ class CreateAccount
         return created;
     }
     
-    static void Write(BankAccount toWrite)
+    static void Write(BankAccount acc)
     {
-        Console.WriteLine("Account number is {0}",  toWrite.Number());
-        Console.WriteLine("Account balance is {0}", toWrite.Balance());
-        Console.WriteLine("Account type is {0}", toWrite.Type());
+        Console.WriteLine("Account number is {0}", acc.Number());
+        Console.WriteLine("Account balance is {0}", acc.Balance());
+        Console.WriteLine("Account type is {0}", acc.Type());
+        Console.WriteLine("Transactions:");
+        foreach (BankTransaction tran in acc.Transactions())
+        {
+            Console.WriteLine("Date/Time: {0}\tAmount: {1}", tran.When(), tran.Amount());
+        }
+        Console.WriteLine();
+
     }
 
     public static void TestDeposit(BankAccount acc)
